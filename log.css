@@ -1,0 +1,54 @@
+/* --- Social Login Styles --- */
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-login button {
+    width: 30%;
+    margin: 5px 0;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.google-btn {
+    background: #db4437;
+}
+
+.facebook-btn {
+    background: #1877f2;
+}
+
+.instagram-btn {
+    background: #e1306c;
+}
+
+.whatsapp-btn {
+    background: #25d366;
+}
+
+.google-btn:hover {
+    background: #c23321;
+}
+
+.facebook-btn:hover {
+    background: #1254b7;
+}
+
+.instagram-btn:hover {
+    background: #ad2454;
+}
+
+.whatsapp-btn:hover {
+    background: #1da851;
+}

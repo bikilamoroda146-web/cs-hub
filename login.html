@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CS Dept</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+        <input type="email" id="username" placeholder="Email"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button onclick="login()">Login</button>
+        <p id="message"></p>
+
+        <div class="social-login">
+            <p>Or login with:</p>
+            <button class="google-btn" onclick="socialLogin('Google')">Google</button>
+            <button class="facebook-btn" onclick="socialLogin('Facebook')">Facebook</button>
+            <button class="instagram-btn" onclick="socialLogin('Instagram')">Instagram</button>
+            <button class="whatsapp-btn" onclick="socialLogin('WhatsApp')">WhatsApp</button>
+        </div>
+
+        <p>Don’t have an account? <a href="signup.html">Sign up here</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
